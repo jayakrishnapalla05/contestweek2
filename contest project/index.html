@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header >
+        <nav class="navbar">
+          <div class="logo">
+            <p>Library System</p>
+          </div>
+  
+          <div class="list">
+            <ul class="list-items">
+              <li><a href="#Books">Books</a></li>
+              <li><a href="#Register">Register</a></li>
+              <li>Contact Us</li>
+              <li>Logout</li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+
+
+    <section class="main">
+        <div class="h">
+            <h1 id="Books">Books</h1>
+        <table border="1" cellspacing="0">
+            <tr>
+                <thead id="head">
+                <th>Book ID</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Genre</th>
+                <th>Availability</th>
+                </thead>
+            </tr>
+            <tbody id="body">
+            <tr>
+                <td>1</td>
+                <td><a href="#">Book Title 1</a>
+                 <table border="1" cellspacing="0" style="width: 90%">
+                    <tr>
+                        <td>Publication Date:2000</td>
+                    </tr>
+                    <tr>
+                    <td>Page Count: 250</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN:123-4567890123</td>
+                    </tr>
+                 </table>
+                 </td>
+                 <td>Author Name 1</td>
+                 <td>Genre 1</td>
+                 <td>Available</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><a href="#">Book Title 2</a>
+                 <table border="1" cellspacing="0" style="width: 90%;">
+                    <tr>
+                        <td>Publication Date:2005</td>
+                    </tr>
+                    <tr>
+                    <td>Page Count: 300</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN:123-4567890123</td>
+                    </tr>
+                 </table>
+                 </td>
+                 <td>Author Name 2</td>
+                 <td>Genre 2</td>
+                 <td> Not Available</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><a href="#">Book Title 3</a>
+                 <table border="1"cellspacing="0" style="width: 90%;">
+                    <tr>
+                        <td>Publication Date:2010</td>
+                    </tr>
+                    <tr>
+                    <td>Page Count: 400</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN:123-4567890123</td>
+                    </tr>
+                 </table>
+                 </td>
+                 <td>Author Name 3</td>
+                 <td>Genre 3</td>
+                 <td>Available</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><a href="#">Book Title 4</a>
+                 <table border="1" cellspacing="0" style="width: 90%;">
+                    <tr>
+                        <td>Publication Date:2011</td>
+                    </tr>
+                    <tr>
+                    <td>Page Count: 400</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN:123-4567890123</td>
+                    </tr>
+                 </table>
+                 </td>
+                 <td>Author Name 4</td>
+                 <td>Genre 4</td>
+                 <td>Available</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><a href="#">Book Title 5</a>
+                 <table border="1" cellspacing="0" style="width: 90%;">
+                    <tr>
+                        <td>Publication Date:2015</td>
+                    </tr>
+                    <tr>
+                    <td>Page Count: 400</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN:123-4567890123</td>
+                    </tr>
+                 </table>
+                 </td>
+                 <td>Author Name 5</td>
+                 <td>Genre 5</td>
+                 <td>Not Available</td>
+            </tr>
+            </tbody>
+        </div>
+        </table>
+    </section>
+
+
+
+
+        <section class="form">
+            <div class="formcontainer">
+         <h1 id="Register">Register</h1>
+    
+        <form method="post">
+            <div>
+                <label for="fname">First Name:</label><br>
+                <input type="text" name="fanme" id="fname" required> 
+            </div>
+            <div>
+                <label for="lname">Last Name:</label><br>
+                <input type="text" name="lname" id="lname" required>
+            </div>
+            <div>
+                <label for="DOB">Date of Birth:</label><br>
+                <input type="date" name="DOB" id="DOB" required>
+            </div>
+            <div>
+                <label for="age">Age:</label><br>
+                <input type="number" name="age" id="age" min="5" max="100" required>
+            </div>
+            <div>
+                <label for="email">Email:</label><br>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="password">Password:</label><br>
+                <input type="password" name="password" id="password" required>
+            </div>
+            <div>
+                <label for="cpass">Confirm Password:</label><br>
+                <input type="password" name="cpass" id="cpass" required>
+            </div>
+            <br>
+            <div>
+            <button type="Register" id="b">Register</button>
+            </div>
+        </form>
+            </div>
+        </section>
+</body>
+</html>

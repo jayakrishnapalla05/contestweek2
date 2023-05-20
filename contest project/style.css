@@ -1,0 +1,118 @@
+header{
+    background-color: black;
+    position: sticky;
+    width: 100%;
+    top:0px;
+    left:0px;
+
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+color:white;
+margin-right: 20px;
+margin-left: 20px;
+
+
+}
+
+.list-items li{
+display: inline-block;
+margin-right: 10px;
+}
+
+li {
+list-style: none;
+}
+
+div ul li a{
+text-decoration: none;
+color:white;
+}
+ 
+body{
+    /* background-color:#f2f2f2; */
+    background-image: radial-gradient(rgb(187, 242, 21), rgb(99, 246, 226));
+    text-align:left;
+    padding:0;
+}
+#b{
+    background-color: black;
+    color:white;
+    width:97%;
+    padding:10px;
+}
+.main{
+    background-color: white;
+    width:50%;
+    height:700px;
+    border-radius: 12px;
+    box-shadow: 3px 3px 3px 3px rgb(224, 239, 243);
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+.form{
+    background-color: white;
+    width:50%;
+    border-radius: 12px;
+    box-shadow: 3px 3px 3px 3px rgb(224, 239, 243);
+    margin-left: 400px;
+     margin-bottom: 30px;
+     background-image: radial-gradient(rgb(216, 195, 254), rgba(24, 241, 194, 0.158));
+}
+
+table{
+    width:95%;
+    margin:15px;
+    border-collapse: collapse;
+    background-image: radial-gradient(rgb(235, 233, 237), rgba(48, 147, 69, 0.274));
+    /* background-color: rgb(206, 249, 121); */
+
+}
+#head{
+    text-align: center;
+}
+#body{
+    text-align: center;
+}
+form div input{
+    width: 95%;
+    padding: 7px;
+    border:1px solid rgb(227, 216, 216);
+    
+}
+.formcontainer{
+    margin-left: 15px;
+    height:500px;
+}
+input[type="text"]:focus {
+    outline: none;
+    border:2px solid skyblue;
+    background-color:white;
+  
+  }
+input[type="email"]:focus{
+    outline: none;
+    border:2px solid skyblue;
+    background-color:white;
+  }
+  input [type="date"]:focus{
+    outline: none;
+    border:2px solid skyblue;
+    background-color:white;
+  }
+  input [type="number"]:focus{
+    outline: none;
+    border:2px solid skyblue;
+    background-color: black;
+  }
+  input [type="password"]:focus{
+    outline: none;
+    border:2px solid skyblue;
+    background-color:white;
+  }
+  #Books{
+    margin-left: 20px;
+  }
+
